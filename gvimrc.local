@@ -9,7 +9,10 @@ if has("gui_macvim")
   map <D-+> :set invfu<CR>
 
   " Default gui color scheme
-  color railscasts+
+  color railscasts
+  "syntax enable
+  "set background=light
+  "colorscheme solarized
 
   " Include user's custom vim config
   if filereadable(expand("~/.gvimrc.custom"))
