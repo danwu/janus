@@ -56,3 +56,5 @@ map <F12> :NERDTreeFind<CR>
 if filereadable(expand("~/.vimrc.custom"))
   source ~/.vimrc.custom
 endif
+
+let g:neocomplcache_enable_at_startup = 1
